@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Variabile</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html">Acasă</a>
+        <a href="simple.html">Simple</a>
+        <a href="structurate.html">Structurate</a>
+    </nav>
+    <div class="Titlu"><h1>Variabile Simple</h1></div>
+    <div class="teorie">
+        <li><p>Aceste variabile rețin un singur element de date și sunt cele mai elementare tipuri de variabile. Exemple de variabile simple includ:</p></li>
+        
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri întregi (int, short, long, long long, unsigned int etc.)</p></li>
+        <div class="info" style="display: none;">
+            <p>int varInt = 10;</p>
+         <p>unsigned int varUInt = 15;</p>
+        </div>
+        
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri reale (float, double, long double)</p></li>
+        <div class="info" style="display: none;">
+            <p>float varFloat = 3.14f;</p>
+           <p>double varDouble = 3.14159;</p>
+        </div>
+
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri caracter (char)</p></li>
+        <div class="info" style="display: none;">
+            <p>char varChar = 'A';</p>
+        </div>
+        
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri booleene (bool)</p></li>
+        <div class="info" style="display: none;">
+            <p>bool varBool = true;</p>
+        </div>
+    </div>
+    
+    <script>
+        function appear(element) {
+            const infoDiv = element.nextElementSibling;
+            if (infoDiv.style.display === "none" || infoDiv.style.display === "") {
+                infoDiv.style.display = "block";
+            } else {
+                infoDiv.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
