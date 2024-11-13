@@ -14,30 +14,84 @@
     </nav>
     <div class="Titlu"><h1>Variabile Simple</h1></div>
     <div class="teorie">
-        <li><p>Aceste variabile rețin un singur element de date și sunt cele mai elementare tipuri de variabile. Exemple de variabile simple includ:</p></li>
+	
+	<div class="titlu">
+  <h6 style="text-align:center";>Aceste variabile rețin un singur element de date și sunt cele mai elementare tipuri de variabile. Exemple de variabile simple includ</h6> </div>
+  
         
-        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri întregi (int, short, long, long long, unsigned int etc.)</p></li>
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tip întregi (int, short, long, long long, unsigned int etc.)</p></li>
         <div class="info" style="display: none;">
-            <p>int varInt = 10;</p>
-         <p>unsigned int varUInt = 15;</p>
+            <p>int varInt = 69;</p>
+         <p>unsigned int varUInt = 13;</p>
         </div>
         
-        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri reale (float, double, long double)</p></li>
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tip real (float)</p></li>
         <div class="info" style="display: none;">
-            <p>float varFloat = 3.14f;</p>
-           <p>double varDouble = 3.14159;</p>
+            <p>float varFloat = 1.61;</p>
+           <p>double varDouble = 3.14;</p>
         </div>
 
-        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri caracter (char)</p></li>
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tip caracter</p></li>
         <div class="info" style="display: none;">
-            <p>char varChar = 'A';</p>
+            <p>char varChar = 'L';</p>
         </div>
         
-        <li onclick="appear(this)" style="cursor: pointer;"><p>Tipuri booleene (bool)</p></li>
+        <li onclick="appear(this)" style="cursor: pointer;"><p>Tip booleene</p></li>
         <div class="info" style="display: none;">
             <p>bool varBool = true;</p>
         </div>
-    </div>
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Tip pointer (acest tip  memoreaza o adresa de memorie)</p></li>
+		<div class="info" style="display: none;">
+			<p>int *p;</p>
+			</div>
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Tip void (acest tip nu poate fi declarat)</p></li>
+		<div class="info" style="display: none;">
+			</div>
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Problema FIBONACCI</p></li>
+		<div class="info" style="display: none;">
+		<h4>Cerinta</h4>
+		<p>Se dă un număr natural n. Să se afişeze în ordine crescătoare, primii n termeni ai şirului lui Fibonacci.</p>
+		<h4>Date de intarare</h4>
+		<p>Programul citește de la tastatură numărul n.</p>
+		<h4>Date de iesire</h4>
+		<p>Programul afișează pe ecran primii n termeni ai şirului lui Fibonacci, în ordine crescătoare, separați printr-un spaţiu.</p>
+		<h4>Restricţii şi precizări</h4>
+		<p>1 <= n <= n</p> </div>
+			
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Problema CMMDC</p></li>
+		<div class="info" style="display: none;">
+		<h4>Cerinta</h4>
+		<p>Să se scrie un program care să determine cel mai mare divizor comun a două numere naturale citite de la tastatură.</p>
+		<h4>Date de intrare</h4>
+		<p>Programul citește de la tastatură două numere naturale a și b</p>
+		<h4>Date de iesire</h4>
+		<p>Programul afișează pe ecran numărul x, cel mai mare divizor comun al numerelor a și b.</p>
+		<h4>Restricţii şi precizări</h4>
+		<p>0 <= a, b < 1.000.000.000 dacă ambele numere sunt egale cu 0 se va afișa valoarea -1</p> </div>
+
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Problema numar prim</p></li>
+		<div class="info" style="display: none;">
+		<h4>Cerinta</h4>
+		<p>Să se scrie un program care citește de la tastatură un număr natural n și verifică dacă este prim.</p>
+		<h4>Date de intrare</h4>
+		<p>Programul citește de la tastatură numărul n.</p>
+		<h4>Date de iesire</h4>
+		<p>Programul afișează pe ecran mesajul DA, dacă n este număr prim, respectiv NU în caz contrar.</p>
+		<h4>Restricţii şi precizări</h4>
+		<p>0 <= n <= 1.000.000.000 un număr natural este prim dacă are exact doi divizori distincți: 1 și el însuși.</p> </div>
+		
+		<li onclick="appear(this)" style="cursor: pointer;"><p>Problema cifre</p></li>
+		<div class="info" style="display: none;">
+		<h4>Cerinta</h4>
+		<p>Să se scrie un program care citeşte de la tastatură un număr natural cu cel puţin două cifre şi determină suma dintre cifra zecilor şi cifra unităţilor numărului citit.</p>
+		<h4>Date de intrare</h4>
+		<p>Programul va citi de la tastatură un număr natural n..</p>
+		<h4>Date de iesire</h4>
+		<p>Programul va afişa pe ecran un număr s, reprezentând suma dintre cifra zecilor şi cea a unităţilor numărului n.</p>
+		<h4>Restricţii şi precizări</h4>
+		<p>9 < n < 1.000.000.000</p> </div>
+    
+	</div>
     
     <script>
         function appear(element) {
