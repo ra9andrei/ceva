@@ -69,6 +69,48 @@ std::vector&lt;int&gt; vectorInt = {1, 2, 3, 4, 5};</code></pre>
     
     <p>Structurile sunt ideale pentru a organiza date legate între ele, permițând acces rapid la fiecare atribut.</p>
 </div>
+<li onclick="appear(this)" style="cursor: pointer;"><b>Coada în C++</b></li>
+<div class="info" style="display: none;">
+    <p>O coadă (queue) este o structură de date care urmează principiul FIFO (First In, First Out), adică primul element introdus este primul care va fi eliminat. Cozile sunt utilizate frecvent pentru gestionarea resurselor într-un mod ordonat și eficient, cum ar fi procesarea de taskuri sau manipularea unor evenimente într-un sistem.
+
+</p>
+    <p>Exemple de utilizare:</p>
+    <ul>
+        <p>Definiție</p>
+        <pre><code>#include <queue>
+
+std::queue<int> coada; // Declara o coadă de tip întreg
+</code></pre>
+
+        <pAdăugare elemente (push)
+<p>
+        <pre><code>coada.push(10);  // Adaugă 10 în coadă
+coada.push(20);  // Adaugă 20 în coadă
+</code></pre>
+
+        <p>Eliminare elemente (pop):
+</p>
+        <pre><code>coada.pop();  // Elimină primul element (10)
+</code></pre>
+ <p>Accesarea elementului din fața cozii (front):
+
+
+</p>
+        <pre><code>int element = coada.front();  // Obține valoarea 20, care este primul element
+
+</code></pre>
+
+
+
+
+    </ul>
+    
+    <p>În exemplul de mai sus, am creat o coadă de întregi, am adăugat două elemente și apoi am eliminat primul element din coadă. Cozile sunt foarte utile în algoritmi de tip procesare pe secvență, cum ar fi în implementarea unui sistem de procesare a cererilor într-un server sau în manipularea evenimentelor într-un program.
+
+
+
+</p>
+</div>
 		<li onclick="appear(this)" style="cursor: pointer;"><b>Probleme Vectori</b></li>
 <div class="info" style="display: none;">
   <p>
@@ -106,6 +148,7 @@ titlu melodie interpret numar puncte acumulate numar puncte primite Sa se afisez
   <p>
 La o statie meteo se trec temperaturile inregistrate intr-o saptamana. Sa se prelucreze aceste date afisandu-se zilele in care temperatura a fost maxima.  </p>
 </div>
+
    </div>
          
 			
